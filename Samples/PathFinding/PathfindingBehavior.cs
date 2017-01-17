@@ -64,10 +64,10 @@ namespace PathFinding
 
         public void ComputePath()
         {
-            //ComputeAStarPath();
+            ComputeAStarPath();
             //ComputeDijstraPath();
             //ComputeBFSPath();
-            ComputeDFSPath();
+            //ComputeDFSPath();
         }
 
         /// <summary>

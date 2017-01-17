@@ -26,7 +26,7 @@ namespace Troll3D.Components
             m_renderer = new MeshRenderer();
             m_renderer.material_ = new MaterialDX11("vSkybox.cso","pSkybox.cso");
 
-            m_renderer.material_.AddTexture( "D:\\Work\\Resources\\snowcube1024.dds" );
+            m_renderer.material_.AddTexture( "E:\\dev\\c#\\Work\\Resources\\snowcube1024.dds" );
 
             m_renderer.material_.SetMainColor( 0.0f, 1.0f, 1.0F, 0.5F );
             m_renderer.model_       = Sphere.ReverseMesh(1.0f,50,50);

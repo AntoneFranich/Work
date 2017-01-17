@@ -88,7 +88,7 @@ namespace Troll3D
 
         public static Mesh LoadObj( string file )
         {
-            string filename = "D:\\Work\\Resources\\" + file;
+            string filename = "E:\\dev\\c#\\Work\\Resources\\" + file;
 
             StreamReader stream = new StreamReader( filename );
 

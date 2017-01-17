@@ -37,7 +37,7 @@ namespace Troll3D
         /// <summary>
         /// Petits raccourcis pour récupérer l'endroit ou sont stocké les images et faciliter un peu tout
         /// </summary>
-        private static string Path = "D:\\Work\\Resources\\";
-        private static string FontPath = "D:\\Work\\Resources\\Fonts";
+        private static string Path = "E:\\dev\\c#\\Work\\Resources\\";
+        private static string FontPath = "E:\\Work\\c#\\Resources\\Fonts";
     }
 }

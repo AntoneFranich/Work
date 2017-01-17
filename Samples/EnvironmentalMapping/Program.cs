@@ -36,7 +36,7 @@ namespace EnvironmentalMapping
             pl.SetIntensity( 1.0F );
             
             Entity entity = new Entity();
-            entity.AddComponent<RotateCube>();
+           // entity.AddComponent<RotateCube>();
             MeshRenderer mr = entity.AddComponent<MeshRenderer>();
             mr.material_ = new MaterialDX11("vDefault.cso","pEmap.cso");
             mr.material_.AddShaderResourceView( cubemap.SRV );
@@ -65,7 +65,7 @@ namespace EnvironmentalMapping
             Entity floor = new Entity();
             MeshRenderer mrfloor = floor.AddComponent<MeshRenderer>();
             mrfloor.material_ = new MaterialDX11( "vDefault.cso", "pDiffuse.cso" );
-            mrfloor.material_.AddTexture( "D:\\Work\\Resources\\ConcreteFloor.jpg" );
+            mrfloor.material_.AddTexture( "E:\\dev\\c#\\Work\\Resources\\ConcreteFloor.jpg" );
             mrfloor.model_ = Quad.GetMesh();
 
             mrfloor.material_.samplers.Add( state );

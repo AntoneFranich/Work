@@ -33,8 +33,8 @@ namespace Troll3D
         /// de manière à éviter les manipulations de fichier ressource sous C# et de faciliter 
         /// la mise en place d'une éventuelle application
         /// </summary>
-        public static string DebugPath = "D:\\Work\\Resources\\Shaders\\";
-        public static string ReleasePath = "D:\\Work\\Resources\\Shaders\\";
+        public static string DebugPath = "E:\\dev\\c#\\Work\\Resources\\Shaders\\";
+        public static string ReleasePath = "D:\\dev\\c#\\Work\\Resources\\Shaders\\";
 
         public MaterialDX11( string vs = "vDefault.cso", string ps = "pUnlit.cso", string gs = "gDefault.cso", VertexTypeD11 type = VertexTypeD11.STANDARD_VERTEX )
         {
